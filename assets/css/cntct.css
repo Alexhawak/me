@@ -1,0 +1,116 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+html ,body{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Croissant One' ;
+}
+
+#contact-hero{
+    width: 100%;
+    height: 920px;
+    background-color: white;
+}
+.contact-nav{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    padding:30px;
+   }
+   .contact-nav i{
+       font-size: 30px;
+   }
+   .contact-nav a{
+       text-decoration: none;
+       color: black;
+   }
+
+.contact-main{
+    margin:30px 80px ;
+    /* border: 3px solid red; */
+    height: 700px;
+    background-color: black;
+    box-shadow: 20px 20px 80px black;
+
+}
+
+.contact-main-left{
+    /* border: 3px solid rgb(51, 255, 0); */
+    width: 50%;
+    height: 100%;
+}
+.contact-main-left >h2{
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.contact-left-from{
+margin: 10px 30px;
+/* border: 3px solid yellow; */
+height: 500px;
+padding: 30px;
+/* background-color: white; */
+}
+.name , .email {
+   /* border: 1px solid pink; */
+    height: 100px;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+}
+.help{
+    height: 210px;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+}
+::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 1; /* Firefox */
+  }
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(255, 255, 255);
+    opacity: 1;
+   }
+input[type='text'] , [type='email'] ,#subject{
+    width: 100%;
+    border:none;
+    border-radius: 5px;
+    height: 50px ;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
+/* input[type='text']:active{
+    border:2px solid yellow;
+} */
+#subject{
+    width: 540px;
+    height: 150px;
+    resize: none;
+    overflow: auto;
+    padding: 10px;
+}
+input:focus, #subject:focus {
+    outline: none;
+    border:2px solid rgb(255, 255, 255);
+}
+input[type='submit']{
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    width: 100px;
+    font-size: larger;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+input[type='submit']:hover{
+border: 2px solid white;
+}
+.subm{
+text-align: center;
+}
